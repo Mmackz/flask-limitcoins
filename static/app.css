@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    background: #59C17371;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5c26c171, #a17fe071, #59C17371);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5D26C171, #a17fe071, #59C17371); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1 {
+    color: brown;
+    text-align: center;
+}
+
+#container {
+    width: 480px;
+    margin: 0 auto;
+}
+
+#container > div {
+    border: black 1px solid;
+    border-radius: 5px;
+    background: white;
+    margin-bottom: 1rem;
+}
+
+#coin-limits, .flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.coin {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+.coin-limits {
+    text-align: center;
+}
+
+.coin-limits p {
+    margin: 0.1rem;
+}
+
+.limit {
+    padding: 10px;
+    padding-bottom: 4px;
+}
+
+p {
+    margin: 0.1rem;
+    text-align: center;
+}
+
+.limits-title {
+    text-align: center;
+    margin: 0.3rem;
+}
+
+.over-limit {
+    color: crimson;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 480px) {
+    #container {
+        width: 100%;
+    }
+}

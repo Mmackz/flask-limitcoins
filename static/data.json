@@ -1,0 +1,224 @@
+{
+    "limits": [
+        {
+            "symbol": "BTC",
+            "limit": 11
+        },
+        {
+            "symbol": "ETH",
+            "limit": 7
+        },
+        {
+            "symbol": "ADA",
+            "limit": 3
+        },
+        {
+            "symbol": "USDT",
+            "limit": 3
+        },
+        {
+            "symbol": "BNB",
+            "limit": 3
+        },
+        {
+            "symbol": "XRP",
+            "limit": 3
+        },
+        {
+            "symbol": "SOL",
+            "limit": 3
+        },
+        {
+            "symbol": "DOT",
+            "limit": 3
+        }
+    ],
+    "coins": [
+        "ALGO",
+        "DOGE",
+        "SHIB",
+        "VET"
+    ],
+    "posts": {
+        "AAVE": [
+            [
+                "AAVE",
+                "pq2iyv",
+                1631893110.0,
+                "AAVE officially deploying onto Avalanche & Harmony One"
+            ]
+        ],
+        "ADA": [
+            [
+                "ADA",
+                "ppycw1",
+                1631878124.0,
+                "Cardano is good but the Fake news on Smartcontracts has got to stop."
+            ],
+            [
+                "ADA",
+                "pq6unt",
+                1631906642.0,
+                "Cardano Announces Launch of Custom DeFi Platform After Rolling Out Smart Contracts - The Daily Hodl"
+            ]
+        ],
+        "ALGO": [
+            [
+                "ALGO",
+                "pq2egk",
+                1631892711.0,
+                "Algorand secures yet another funding from Skybridge - $100M"
+            ],
+            [
+                "ALGO",
+                "pq0ayh",
+                1631885832.0,
+                "The Algorand Miami Accelerator program is looking for 10 startups that use Algorand\u2019s blockchain technology or plan to do so in the near future."
+            ]
+        ],
+        "AVAX": [
+            [
+                "AVAX",
+                "pq2iyv",
+                1631893110.0,
+                "AAVE officially deploying onto Avalanche & Harmony One"
+            ]
+        ],
+        "BCH": [
+            [
+                "BCH",
+                "pq6vih",
+                1631906720.0,
+                "First AMC and now Todos Medical is accepting Bitcoin, Ethereum, Dogecoin, Bitcoin Cash, and Litecoin as payment"
+            ]
+        ],
+        "BTC": [
+            [
+                "BTC",
+                "ppmnnt",
+                1631828049.0,
+                "Why Bitcoin will hit $700k Soon:"
+            ],
+            [
+                "BTC",
+                "pq0ad7",
+                1631885773.0,
+                "This week, I offered my employees the option to receive a portion of their salary in bitcoin. Crickets."
+            ],
+            [
+                "BTC",
+                "pq6vih",
+                1631906720.0,
+                "First AMC and now Todos Medical is accepting Bitcoin, Ethereum, Dogecoin, Bitcoin Cash, and Litecoin as payment"
+            ],
+            [
+                "BTC",
+                "pq4o6p",
+                1631899756.0,
+                "IMF Chief who tried to Stop El Salvadors Bitcoin Adoption exposed for Rigging Report in Favor of China at World Bank"
+            ]
+        ],
+        "DOGE": [
+            [
+                "DOGE",
+                "pq6vih",
+                1631906720.0,
+                "First AMC and now Todos Medical is accepting Bitcoin, Ethereum, Dogecoin, Bitcoin Cash, and Litecoin as payment"
+            ],
+            [
+                "DOGE",
+                "pq1b6e",
+                1631889183.0,
+                "DOGE is a meme but ultimately brings new investors to the crypto market"
+            ]
+        ],
+        "ETH": [
+            [
+                "ETH",
+                "ppxrh2",
+                1631875441.0,
+                "$1.2B In Ethereum Withdrawn From Exchanges In Past 24 Hours Along With Over $1 Billion In ETH Burned Since EIP-1559 Release"
+            ],
+            [
+                "ETH",
+                "pq6vih",
+                1631906720.0,
+                "First AMC and now Todos Medical is accepting Bitcoin, Ethereum, Dogecoin, Bitcoin Cash, and Litecoin as payment"
+            ],
+            [
+                "ETH",
+                "ppfx9v",
+                1631807361.0,
+                "Dude on Reddit says ETH will go up"
+            ]
+        ],
+        "Harmony ONE": [
+            [
+                "Harmony ONE",
+                "pq2iyv",
+                1631893110.0,
+                "AAVE officially deploying onto Avalanche & Harmony One"
+            ]
+        ],
+        "LTC": [
+            [
+                "LTC",
+                "pq6vih",
+                1631906720.0,
+                "First AMC and now Todos Medical is accepting Bitcoin, Ethereum, Dogecoin, Bitcoin Cash, and Litecoin as payment"
+            ]
+        ],
+        "SHIB": [
+            [
+                "SHIB",
+                "pq69r6",
+                1631904800.0,
+                "I randomly recieved 2M SHIB"
+            ],
+            [
+                "SHIB",
+                "pq2vh5",
+                1631894231.0,
+                "Help, I bought SHIB on Binance a day before it went on Coinbase... What do I do with my newfound fortune?"
+            ]
+        ],
+        "USDT": [
+            [
+                "USDT",
+                "pq36eq",
+                1631895145.0,
+                "The whole crypto community just collectively chooses to ignore how fucked up USDT is and it is still working!"
+            ]
+        ],
+        "VET": [
+            [
+                "VET",
+                "pq7i04",
+                1631908700.0,
+                "How can good coins like XLM and VET not rise accordingly in price?"
+            ],
+            [
+                "VET",
+                "ppohwh",
+                1631834465.0,
+                "As a VeChain holder it was so great when my evening was interupted by my phone notifying me that Shiba Inu has been listed on Coinbase."
+            ]
+        ],
+        "XLM": [
+            [
+                "XLM",
+                "pq7i04",
+                1631908700.0,
+                "How can good coins like XLM and VET not rise accordingly in price?"
+            ]
+        ],
+        "XRP": [
+            [
+                "XRP",
+                "ppwhwi",
+                1631868824.0,
+                "Experts say Ripple will win SEC lawsuit, which might propel XRP to new all-time highs"
+            ]
+        ]
+    }
+}
