@@ -8,10 +8,10 @@ import threading
 from coinlist import coinlist
 
 def authenticate():
-    username = os.environ.get('praw_USERNAME')
-    password = os.environ.get('praw_PASSWORD')
-    client_id = os.environ.get('praw_CLIENT_ID')
-    client_secret = os.environ.get('praw_CLIENT_SECRET')
+    username = os.getenv('praw_USERNAME')
+    password = os.getenv('praw_PASSWORD')
+    client_id = os.getenv('praw_CLIENT_ID')
+    client_secret = os.getenv('praw_CLIENT_SECRET')
     reddit = praw.Reddit(
        username=username,
        password=password,
