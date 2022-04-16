@@ -8,18 +8,18 @@ import threading
 from coinlist import coinlist
 
 def authenticate():
-   #  username = os.environ.get('praw_USERNAME')
-   #  password = os.environ.get('praw_PASSWORD')
-   #  client_id = os.environ.get('praw_CLIENT_ID')
-   #  client_secret = os.environ.get('praw_CLIENT_SECRET')
-   #  reddit = praw.Reddit(
-   #     username=username,
-   #     password=password,
-   #     user_agent="console:limitcoinsv1.0 (by u/Mcgillby)",
-   #     client_id=client_id,
-   #     client_secret=client_secret
-   #  )
-    reddit = praw.Reddit("ccModBot", user_agent="console:limitcoinsv1.0 (by u/Mcgillby)") 
+    username = os.environ.get('praw_USERNAME')
+    password = os.environ.get('praw_PASSWORD')
+    client_id = os.environ.get('praw_CLIENT_ID')
+    client_secret = os.environ.get('praw_CLIENT_SECRET')
+    reddit = praw.Reddit(
+       username=username,
+       password=password,
+       user_agent="console:limitcoinsv1.0 (by u/Mcgillby)",
+       client_id=client_id,
+       client_secret=client_secret
+    )
+   #  reddit = praw.Reddit("ccModBot", user_agent="console:limitcoinsv1.0 (by u/Mcgillby)") 
     return reddit
 
 reddit = authenticate()
