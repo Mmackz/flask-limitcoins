@@ -127,10 +127,14 @@ def limit_coins():
 
     if not "error" in limits:
         for post in posts:
-            # Search post for coin mentions
-            matches = extract_coins(post)
-            for item in matches:
-                all_matches.append(item)
+            # Check if post has COMEDY flair
+            if post.link_flair_text == 'COMEDY':
+                all_matches.append(('COMEDY_FLAIR', post.id, post.created_utc, post.title));
+            else:
+                # Search post for coin mentions
+                matches = extract_coins(post)
+                for item in matches:
+                    all_matches.append(item)
 
         coins = set()
         for match in all_matches:
