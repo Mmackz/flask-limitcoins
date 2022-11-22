@@ -28,10 +28,16 @@ first_run = 1
 limits = {"error": "there was an error retrieving the data.. try again later"}
     
 def purify_list(plist):
-    mods = list(subreddit.moderator())
-    approved_flairs = ['ama', 'official', 'megathread', 'event']
-    newlist = [x for x in plist if not (x.stickied or str(x.link_flair_text).lower() in approved_flairs 
+    try:
+        mods = list(subreddit.moderator())
+        approved_flairs = ['ama', 'official', 'megathread', 'event']
+        newlist = [x for x in plist if not (x.stickied or str(x.link_flair_text).lower() in approved_flairs 
                                     or str(x.link_flair_text).lower().endswith('*') or x.author in mods)]
+    except:
+        global limits
+        limits = {"error": "there was an error retrieving the data.. try again later"}
+        newlist = []
+
     return newlist
 
 
