@@ -1,29 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" type="image/jpg" href="static/favicon.ico"/>
-        <link rel="stylesheet" href="static/app.css" />
-        <title>Coin Limits</title>
-    </head>
-    <body>
-        <h1>r/CC Coin Limits</h1>
-        <div id=container>
-            <div class="coin-limits">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" type="image/jpg" href="static/favicon.ico" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap"
+         rel="stylesheet"
+      />
+      <link rel="stylesheet" href="static/app.css" />
+      <title>Coin Limits</title>
+   </head>
+   <body>
+      <div id="container">
+         <div class="coin-limits">
+            <div class="title">
+               <img src="static/images/cclogo.webp" />
+               <h1>r/CryptoCurrency Coin/Topic Limits</h1>
+            </div>    
+            <div id="coin-limits">
+               <p>Number of posts allowed in top50</p>
+            </div>
+            <p>all other coins/topics have a limit of 2</p>
+         </div>
+         <!-- <div class="coin-limits">
                 <h3 class="limits-title">Current Limits</h3>
                 <div id="coin-limits"></div>
-                <p>all other coins have a limit of 2</p>
+                <p>all other coins/topics have a limit of 2</p>
+            </div> -->
+         <div>
+            <h3 class="limits-title">Current Posts in Top50</h3>
+            <div id="coin-posts" class="flex"></div>
+            <div class="legend">
+               <p class="legend-title">Legend</p>
+               <div class="legend-items">
+                  <div class="legend-item">
+                     <div class="square amber"></div>
+                     <div class="label">One post until limit</div>
+                  </div>
+                  <div class="legend-item">
+                     <div class="square red"></div>
+                     <div class="label">At or over limit</div>
+                  </div>
+               </div>
             </div>
-            <div>
-                <h3 class="limits-title">Current Posts in Top50</h3>
-                <div id="coin-posts" class="flex"></div>
-            </div>
-            <div>
-                <h3 class="limits-title">Coins currently at limit</h3>
-                <div id="limited" class="flex"></div>
-            </div>   
-        </div>
-        <script src="static/app.js"></script>
-    </body>
+         </div>
+         <div>
+            <h3 class="limits-title">Coins currently at limit</h3>
+            <div id="limited" class="flex"></div>
+         </div>
+      </div>
+      <script src="static/app.js"></script>
+   </body>
 </html>
