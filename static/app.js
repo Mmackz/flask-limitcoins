@@ -1,6 +1,5 @@
 const container = document.getElementById("container");
 const coinLimits = document.getElementById("coin-limits");
-const limited = document.getElementById("limited");
 const coinPosts = document.getElementById("coin-posts");
 
 (async function () {
@@ -11,12 +10,14 @@ const coinPosts = document.getElementById("coin-posts");
    const data = await responses[0].json();
    const images = await responses[1].json();
 
-   for (let key in data.posts) {
-      data.posts[key].image = images[key.toLowerCase()];
-   }
+   if (!data.hasOwnProperty("error")) {
+      for (let key in data.posts) {
+         data.posts[key].image = images[key.toLowerCase()];
+      }
 
-   for (let item of data.limits) {
-      item.image = images[item.symbol.toLowerCase()];
+      for (let item of data.limits) {
+         item.image = images[item.symbol.toLowerCase()];
+      }
    }
 
    displayLimits(data, images);
@@ -25,8 +26,11 @@ const coinPosts = document.getElementById("coin-posts");
 function displayLimits(data, images) {
    if (data.hasOwnProperty("error")) {
       const html = `
-         <h2 class=error>${data.error}</h2>
-     `;
+         <div>
+            <h2 class="error">${data.error}</h2>
+            <p>If this message persists, please <a href="https://www.reddit.com/message/compose/?to=/r/CryptoCurrency">contact the r/cc mod team.</a></p>
+         </div>
+      `;
       container.innerHTML = html;
    } else {
       let { coins, limits, posts } = data;
@@ -51,21 +55,7 @@ function displayLimits(data, images) {
             </div>
          `;
       }
-      coins =
-         coins.length > 0
-            ? coins.map(
-                 (coin) => `
-            <div class="box">
-               <img class="icon" src=${images[coin.toLowerCase()]} />
-               <div class="limit">
-                  <p class=${
-                     coin.length >= 7 ? "x-small" : coin.length >= 5 ? "small" : ""
-                  }>${coin}</p>
-               </div>
-            </div>
-         `
-              )
-            : [`<p>There is no coins currently at the limit.</p>`];
+
       limits = limits.map(
          (coin) => `
             <div class="box">
@@ -78,7 +68,6 @@ function displayLimits(data, images) {
          `
       );
 
-      limited.innerHTML = coins.join("");
       coinLimits.innerHTML += limits.join("");
       coinPosts.innerHTML = coinsHtml;
    }
