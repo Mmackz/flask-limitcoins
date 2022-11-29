@@ -25,7 +25,7 @@
    "atom": "https://assets.coingecko.com/coins/images/1481/small/cosmos_hub.png?1555657960",
    "etc": "https://assets.coingecko.com/coins/images/453/small/ethereum-classic-logo.png?1547034169",
    "xmr": "https://assets.coingecko.com/coins/images/69/small/monero_logo.png?1547033729",
-   "xlm": "https://assets.coingecko.com/coins/images/100/small/Stellar_symbol_black_RGB.png?1552356157",
+   "xlm": "static/images/xlmlogo.png",
    "bch": "https://assets.coingecko.com/coins/images/780/small/bitcoin-cash-circle.png?1594689492",
    "algo": "https://assets.coingecko.com/coins/images/4380/small/download.png?1547039725",
    "cro": "https://assets.coingecko.com/coins/images/7310/small/oCw2s3GI_400x400.jpeg?1645172042",
