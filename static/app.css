@@ -54,6 +54,10 @@ body:after {
    padding-top: 0.75rem;
 }
 
+#coin-limits, #coin-posts {
+   min-height: 4.2rem;
+}
+
 #coin-limits,
 .flex {
    display: flex;
