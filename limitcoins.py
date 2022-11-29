@@ -5,28 +5,31 @@ import praw
 import re
 import requests
 import threading
-from coinlist import coinlist
+# from coinlist import coinlist
 
 def authenticate():
-    username = os.getenv('praw_USERNAME')
-    password = os.getenv('praw_PASSWORD')
-    client_id = os.getenv('praw_CLIENT_ID')
-    client_secret = os.getenv('praw_CLIENT_SECRET')
-    reddit = praw.Reddit(
-       username=username,
-       password=password,
-       user_agent="console:limitcoinsv1.0 (by u/Mcgillby)",
-       client_id=client_id,
-       client_secret=client_secret
-    )
-   #  reddit = praw.Reddit("ccModBot", user_agent="console:limitcoinsv1.0 (by u/Mcgillby)") 
+    # username = os.getenv('praw_USERNAME')
+    # password = os.getenv('praw_PASSWORD')
+    # client_id = os.getenv('praw_CLIENT_ID')
+    # client_secret = os.getenv('praw_CLIENT_SECRET')
+    # reddit = praw.Reddit(
+    #    username=username,
+    #    password=password,
+    #    user_agent="console:limitcoinsv1.0 (by u/Mcgillby)",
+    #    client_id=client_id,
+    #    client_secret=client_secret
+    # )
+    reddit = praw.Reddit("ccModBot", user_agent="console:limitcoinsv1.0 (by u/Mcgillby)") 
     return reddit
 
 reddit = authenticate()
 subreddit = reddit.subreddit("cryptocurrency")
 first_run = 1
 limits = {"error": "there was an error retrieving the data.. try again later"}
-    
+
+def get_coinlist():
+    return json.loads(subreddit.wiki["botconfig/cclimits"].content_md)["coinlist"]
+
 def purify_list(plist):
     try:
         mods = list(subreddit.moderator())
@@ -42,6 +45,8 @@ def purify_list(plist):
 
 
 def extract_coins(post):
+    coinlist = get_coinlist()
+    
     # Split title into individual words greater than 2 letters (or 2 letters in allcaps)  
     split = (list(filter(lambda x: (len(x) > 2 and not x.isdigit()) or (len(x) == 2 
         and x.isupper() and x.isalpha()), set(re.split(r'\W', post.title)))))
