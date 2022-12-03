@@ -5,7 +5,6 @@ import praw
 import re
 import requests
 import threading
-# from coinlist import coinlist
 
 def authenticate():
     username = os.getenv('praw_USERNAME')
@@ -26,9 +25,15 @@ reddit = authenticate()
 subreddit = reddit.subreddit("cryptocurrency")
 first_run = 1
 limits = {"error": "there was an error retrieving the data.. try again later"}
+coinlist = json.loads(subreddit.wiki["botconfig/cclimits"].content_md)["coinlist"]
 
 def get_coinlist():
-    return json.loads(subreddit.wiki["botconfig/cclimits"].content_md)["coinlist"]
+    global coinlist
+    try: 
+        return json.loads(subreddit.wiki["botconfig/cclimits"].content_md)["coinlist"]
+    except:
+        print("There was an error getting coinlist")
+        return coinlist
 
 def purify_list(plist):
     try:
@@ -45,7 +50,7 @@ def purify_list(plist):
 
 
 def extract_coins(post):
-    coinlist = get_coinlist()
+    global coinlist
     
     # Split title into individual words greater than 2 letters (or 2 letters in allcaps)  
     split = (list(filter(lambda x: (len(x) > 2 and not x.isdigit()) or (len(x) == 2 
@@ -120,9 +125,13 @@ def get_totalmcap():
 def limit_coins():
     global first_run
     global limits
+    global coinlist
     all_matches = []
 
     posts = get_posts()
+
+    # get coinlist from r/cc wiki
+    coinlist = get_coinlist()
 
     # get limits and start interval to update limits every day
     if first_run:
