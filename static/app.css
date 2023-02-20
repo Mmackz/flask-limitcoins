@@ -39,13 +39,13 @@ body:after {
    min-height: 550px;
    max-height: 37rem;
    margin: 0 auto;
-   margin-top: clamp(1rem, 7vh, 4rem);
+   padding-top: clamp(1rem, 7vh, 4rem);
    display: flex;
    flex-direction: column;
    justify-content: space-evenly;
 }
 
-#container > div {
+#container > div:not(.timestamp) {
    border: black 0.313rem solid;
    border-radius: 0.75rem;
    background: #ffffffa0;
@@ -274,6 +274,18 @@ div.overlimit {
    text-align: center;
    text-transform: uppercase;
    letter-spacing: -0.0625rem;
+}
+
+.timestamp {
+   position: absolute;
+   bottom: 1.5rem;
+   right: 1.5rem;
+   font-size: 0.75rem;
+   font-weight: bold;
+   padding: 0.275rem 0.5rem;
+   border: 3px black solid;
+   border-radius: 6px;
+   background: #ffffff40;
 }
 
 @media (min-width: 362px) {

@@ -1,6 +1,7 @@
 const container = document.getElementById("container");
 const coinLimits = document.getElementById("coin-limits");
 const coinPosts = document.getElementById("coin-posts");
+const timestampContainer = document.querySelector(".timestamp");
 
 (async function () {
    const responses = await Promise.all([
@@ -20,6 +21,7 @@ const coinPosts = document.getElementById("coin-posts");
       }
    }
 
+   displayTimestamp(data.timestamp);
    displayLimits(data, images);
 })();
 
@@ -71,6 +73,15 @@ function displayLimits(data, images) {
       coinLimits.innerHTML += limits.join("");
       coinPosts.innerHTML = coinsHtml;
    }
+}
+
+function displayTimestamp(timestamp) {
+   const date = new Date(timestamp * 1000).toLocaleTimeString("en-US", {
+      hour: "numeric",
+      minute: "numeric",
+      hour12: true
+   });
+   timestampContainer.innerHTML = `Last Update: ${date}`;
 }
 
 function findMaxLimit(coin, limits) {

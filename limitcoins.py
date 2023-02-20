@@ -1,3 +1,4 @@
+import time
 import json
 import math
 import os
@@ -185,7 +186,7 @@ def limit_coins():
                 coins_at_limit.append(coin)
                 continue
         
-        data = {"limits": limits, "coins": coins_at_limit, "posts": coin_posts}
+        data = {"limits": limits, "coins": coins_at_limit, "posts": coin_posts, "timestamp": int(time.time())}
         write_json("static", "data.json", data)
 
 def write_json(target_path, target_file, data):
