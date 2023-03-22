@@ -14,12 +14,12 @@ def update_data(func):
     t.start()
     return
 
-try:
-   limit_coins()
-   update_data(limit_coins)
-except Exception as e:
-   print(e)
-   print("failed to update")
+# try:
+#    limit_coins()
+#    update_data(limit_coins)
+# except Exception as e:
+#    print(e)
+#    print("failed to update")
 
 
 @app.route("/")
@@ -27,6 +27,6 @@ def index():
   return render_template("app.html")
 
 if __name__ == "__main__":
-  app.run('0.0.0.0',port=8081)
-#   serve(app)
+#   app.run('0.0.0.0',port=8081)
+  serve(app)
 

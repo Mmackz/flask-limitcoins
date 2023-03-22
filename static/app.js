@@ -4,25 +4,32 @@ const coinPosts = document.getElementById("coin-posts");
 const timestampContainer = document.querySelector(".timestamp");
 
 (async function () {
-   const responses = await Promise.all([
-      fetch("static/data.json"),
-      fetch("static/images.json")
-   ]);
-   const data = await responses[0].json();
-   const images = await responses[1].json();
+   // const responses = await Promise.all([
+   //    fetch("static/data.json"),
+   //    fetch("static/images.json")
+   // ]);
+   // const data = await responses[0].json();
+   // const images = await responses[1].json();
 
-   if (!data.hasOwnProperty("error")) {
-      for (let key in data.posts) {
-         data.posts[key].image = images[key.toLowerCase()];
-      }
+   // if (!data.hasOwnProperty("error")) {
+   //    for (let key in data.posts) {
+   //       data.posts[key].image = images[key.toLowerCase()];
+   //    }
 
-      for (let item of data.limits) {
-         item.image = images[item.symbol.toLowerCase()];
-      }
-   }
+   //    for (let item of data.limits) {
+   //       item.image = images[item.symbol.toLowerCase()];
+   //    }
+   // }
 
-   displayTimestamp(data.timestamp);
-   displayLimits(data, images);
+   // displayTimestamp(data.timestamp);
+   // displayLimits(data, images);
+   const html = `
+         <div>
+            <h2 class="error">Site down for maintenance</h2>
+            <p>Please check back soon.</p>
+         </div>
+      `;
+   container.innerHTML = html;
 })();
 
 function displayLimits(data, images) {
