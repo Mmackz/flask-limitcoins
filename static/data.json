@@ -2,7 +2,7 @@
     "limits": [
         {
             "symbol": "BTC",
-            "limit": 11
+            "limit": 12
         },
         {
             "symbol": "ETH",
@@ -10,7 +10,7 @@
         },
         {
             "symbol": "USDT",
-            "limit": 4
+            "limit": 5
         },
         {
             "symbol": "BNB",
@@ -23,229 +23,183 @@
         {
             "symbol": "XRP",
             "limit": 3
-        },
-        {
-            "symbol": "SOL",
-            "limit": 3
-        },
-        {
-            "symbol": "ADA",
-            "limit": 3
         }
     ],
     "coins": [
-        "BTC",
-        "DOGE",
-        "MUSK",
-        "NEXO",
-        "UNI"
+        "CEL",
+        "COMEDY FLAIR",
+        "MOON",
+        "XRP"
     ],
     "posts": {
         "ADA": [
             [
                 "ADA",
-                "u4zyqb",
-                1650122308.0,
-                "Charles Hoskinson Wants Elon Musk to Make Cardano His Plan B If His Aim to Acquire Twitter Fails"
-            ],
-            [
-                "ADA",
-                "u44d5j",
-                1650015571.0,
-                "Cardano Founder Wants to Build Decentralized Twitter with Elon Musk"
-            ]
-        ],
-        "ALGO": [
-            [
-                "ALGO",
-                "u526a7",
-                1650128643.0,
-                "\"I am here with Algorand to make sure the common person on the street has access to the same extremely sophisticated financial tools, at a fraction of the actual cost that right now only the elite has. That for me is what is going to unlock opportunities for everyone.\" -Silvio Micali at PBWS"
+                "11xdzjn",
+                1679397894.0,
+                "Cardano founder says Credit Suisse denied him an account because crypto was \u2018too dangerous\u2019"
             ]
         ],
         "BTC": [
             [
                 "BTC",
-                "u506pg",
-                1650122963.0,
-                "'Wolf of Wall Street' inspiration Jordan Belfort reportedly charged $40,000 for a 2-day crypto workshop at his Miami estate \u2014 three years after he called Bitcoin a 'mass delusion'"
+                "11xkoo6",
+                1679413475.0,
+                "Texas introduces Bill to protect rights of Bitcoin miners, holders and developers"
             ],
             [
                 "BTC",
-                "u4z4r6",
-                1650119813.0,
-                "Bitcoin Whale Transactions Spike As $1,046,164,730 in BTC Leaves Crypto Exchanges in Just 24 Hours"
+                "11xwwmv",
+                1679437264.0,
+                "As the price of BTC rises to $28k, the 'Fear & Greed' index for Bitcoin reaches a 16-month high"
             ],
             [
                 "BTC",
-                "u4saym",
-                1650093015.0,
-                "25,878 BTC Withdrawn from Exchanges in a Day, Highest Net Outflow Over 5 Weeks"
+                "11xd1xj",
+                1679394820.0,
+                "Michael Saylor: Dollar Lost 99.88% Of Purchasing Power To Bitcoin Over Last Decade - MicroStrategy (NASDAQ:MSTR)"
             ],
             [
                 "BTC",
-                "u4rr3a",
-                1650090625.0,
-                "Bitcoin removes the ability for humans to cheat"
+                "11xpax9",
+                1679422528.0,
+                "Bloomberg Analyst Says Bitcoin Could Be Kicking Off New Supercycle As BTC Outperforms Gold"
             ],
             [
                 "BTC",
-                "u4yruq",
-                1650118702.0,
-                "MicroStrategy Will Buy More Bitcoin: Michael Saylor"
+                "11xzyme",
+                1679443552.0,
+                "Bitcoin is morphing into its true form. A decentralized peer to peer currency and Web3 will takeover."
             ],
             [
                 "BTC",
-                "u4xpcp",
-                1650115324.0,
-                "AMC now accepts Bitcoin, Dogecoin, and other cryptocurrencies for online payments"
+                "11xwc4z",
+                1679436160.0,
+                "in the year 2023, the combined market capitalization of the five largest banks in the US decreases by $100 billion, while the market capitalization of Bitcoin increases by $200 billion."
             ],
             [
                 "BTC",
-                "u51wte",
-                1650127910.0,
-                "Green Energy: In New York, Bitcoin Mining Saved The Oldest Working Hydroelectric Plant In The US From Shutting Down, Making It Profitable By Mining With Excess Energy"
+                "11xdzke",
+                1679397896.0,
+                "Do you know Satoshi created Bitcoin in reaction to the 2007 global financial crisis, to give people around the world a choice"
             ],
             [
                 "BTC",
-                "u4yon6",
-                1650118428.0,
-                "Terra's Bitcoin Cache Hits 42,500 BTC As It Chases Michael Saylor\u2019s MicroStrategy | ZYCrypto"
+                "11xyc0w",
+                1679440182.0,
+                "Why Ethereum Could See Further Rise After Bitcoin Rally Ends"
             ],
             [
                 "BTC",
-                "u4so8v",
-                1650094598.0,
-                "MicroStrategy shareholders letter: We\u2019ll 'vigorously pursue' more BTC buys"
+                "11y01t3",
+                1679443746.0,
+                "$14 Trillion Earthquake: Fidelity And BlackRock Are Quietly Laying The Groundwork For The Next Bitcoin, Ethereum And Crypto Price Bull Run"
             ],
             [
                 "BTC",
-                "u4xl9y",
-                1650114944.0,
-                "Will Bitcoin Hit 100,000 as Nexo\u2019s CEO Predicts?"
+                "11xrykf",
+                1679427797.0,
+                "Bitcoin Has Been Profitable Nearly 90% Of Trading History, Data Reveals"
             ],
             [
                 "BTC",
-                "u48ql4",
-                1650031314.0,
-                "Stop using Bullsh*t arguments for the Price of a Crypto being down when it\u2019s Literally following the Trend of Bitcoin for the past 6 Months."
+                "11xypdg",
+                1679440947.0,
+                "Why Bitcoin Could Be Ready For Its Most Powerful Rally In Years"
             ]
         ],
-        "DOGE": [
+        "CEL": [
             [
-                "DOGE",
-                "u4xpcp",
-                1650115324.0,
-                "AMC now accepts Bitcoin, Dogecoin, and other cryptocurrencies for online payments"
+                "CEL",
+                "11xxhrk",
+                1679438428.0,
+                "Celsius custody account holders can receive 72.5% of their crypto, says bankruptcy judge"
             ],
             [
-                "DOGE",
-                "u4hxom",
-                1650057105.0,
-                "Robinhood CEO Sees Dogecoin as 'Future Currency' - Yeah, this belongs here lol"
+                "CEL",
+                "11x8agr",
+                1679378072.0,
+                "Celsius lawyers burn through $144Mil in 9 months. All from client funds."
+            ]
+        ],
+        "COMEDY FLAIR": [
+            [
+                "COMEDY FLAIR",
+                "11xxmnl",
+                1679438713.0,
+                "I made an NFT collection in 45 minutes to prove they are stupid"
+            ],
+            [
+                "COMEDY FLAIR",
+                "11xwmrs",
+                1679436731.0,
+                "Early adoption appreciation"
             ]
         ],
         "ETH": [
             [
                 "ETH",
-                "u51ss1",
-                1650127584.0,
-                "Tornado Cash (Ethereum mixer) has revealed working with the blockchain intelligence firm, Chainalysis"
+                "11xyc0w",
+                1679440182.0,
+                "Why Ethereum Could See Further Rise After Bitcoin Rally Ends"
             ],
             [
                 "ETH",
-                "u4uzs4",
-                1650105024.0,
-                "Ethereum Interest Rates: Where To Earn the Most"
+                "11y01t3",
+                1679443746.0,
+                "$14 Trillion Earthquake: Fidelity And BlackRock Are Quietly Laying The Groundwork For The Next Bitcoin, Ethereum And Crypto Price Bull Run"
             ]
         ],
         "MOON": [
             [
                 "MOON",
-                "u4z3vz",
-                1650119740.0,
-                "What will this sub look like after the final Moon distribution?"
-            ]
-        ],
-        "MUSK": [
-            [
-                "MUSK",
-                "u4zyqb",
-                1650122308.0,
-                "Charles Hoskinson Wants Elon Musk to Make Cardano His Plan B If His Aim to Acquire Twitter Fails"
+                "11xjctm",
+                1679410750.0,
+                "Tip for all Moon Farmers"
             ],
             [
-                "MUSK",
-                "u44d5j",
-                1650015571.0,
-                "Cardano Founder Wants to Build Decentralized Twitter with Elon Musk"
+                "MOON",
+                "11xx1sv",
+                1679437538.0,
+                "MOON Distribution Happening Soon: DCA into Liquidity"
             ]
         ],
-        "NEXO": [
+        "NFT": [
             [
-                "NEXO",
-                "u4m0d1",
-                1650069679.0,
-                "Nexo and Mastercard launch world first crypto-backed payment card"
-            ],
-            [
-                "NEXO",
-                "u4xl9y",
-                1650114944.0,
-                "Will Bitcoin Hit 100,000 as Nexo\u2019s CEO Predicts?"
-            ]
-        ],
-        "UNI": [
-            [
-                "UNI",
-                "u4wdd8",
-                1650110642.0,
-                "Uniswap Faces Class Action Lawsuit From Trader Who Lost Money On Altcoins"
-            ],
-            [
-                "UNI",
-                "u4zi4j",
-                1650120948.0,
-                "Uniswap Faces Lawsuits for Unregistered Offer and Sale of Digital Tokens"
-            ]
-        ],
-        "USDC": [
-            [
-                "USDC",
-                "u4ods0",
-                1650077797.0,
-                "BlackRock Will Manage USDC's $50B Reserves After $400M Raise"
-            ]
-        ],
-        "XLM": [
-            [
-                "XLM",
-                "u4q05u",
-                1650083570.0,
-                "If you're trying to minimize fees when moving crypto between exchanges, consider swapping your tokens for XLM before sending."
+                "NFT",
+                "11xbwhb",
+                1679390739.0,
+                "Sony (Playstation) has filed a patent for NFT use, transfer, and sales in games"
             ]
         ],
         "XMR": [
             [
                 "XMR",
-                "u50ktp",
-                1650124106.0,
-                "Isn't Monero the best coin? If not, why?"
+                "11xo1zt",
+                1679420061.0,
+                "Iranian woman beats government tyranny using Monero"
             ]
         ],
         "XRP": [
             [
                 "XRP",
-                "u4za70",
-                1650120276.0,
-                "Ripple CEO: 'More And More Talent and Investment Leaving U.S. Because of Not Clearer Crypto Laws'"
+                "11xv6nk",
+                1679433962.0,
+                "Ripple\u2019s XRP soars 30% - why you should be supporting Ripple, regardless of your opinion on XRP"
             ],
             [
                 "XRP",
-                "u4cwt7",
-                1650042972.0,
-                "Next lawsuit ready for SEC, accusing them of attempt to \"destroy Ripple\" and making them to defendants for the first time."
+                "11xqehg",
+                1679424742.0,
+                "XRP Whales anticipate a favorable outcome in the Ripple vs. SEC lawsuit, see what they are doing"
+            ],
+            [
+                "XRP",
+                "11xk751",
+                1679412495.0,
+                "XRP up 12.38% in 24hrs. News incoming or just a blip?"
             ]
         ]
-    }
+    },
+    "timestamp": 1679447382
 }
