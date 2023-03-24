@@ -419,7 +419,7 @@
    "bonk": "https://assets.coingecko.com/coins/images/28600/small/bonk.jpg?1672304290",
    "pax": "static/images/paxos.png",
    "nft": "static/images/NFT_Icon.png",
-   "comedy flair": "static/images/comedy.png",
+   "comedy_flair": "static/images/comedy.png",
    "musk": "static/images/elon.png",
    "avatars": "static/images/redditavi.png",
    "metaverse": "static/images/metaverse.png"
