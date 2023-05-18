@@ -424,5 +424,6 @@
    "comedy_flair": "static/images/comedy.png",
    "musk": "static/images/elon.png",
    "avatars": "static/images/redditavi.png",
-   "metaverse": "static/images/metaverse.png"
+   "metaverse": "static/images/metaverse.png",
+   "ledger": "static/images/ledger.png"
 }
