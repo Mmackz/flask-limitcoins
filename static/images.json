@@ -427,5 +427,6 @@
    "metaverse": "static/images/metaverse.png",
    "ledger": "static/images/ledger.png",
    "sec": "static/images/sec.png",
-   "gensler": "static/images/gensler.png"
+   "gensler": "static/images/gensler.png",
+   "hex": "static/images/hex.png"
 }
