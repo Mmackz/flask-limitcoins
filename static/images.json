@@ -425,5 +425,7 @@
    "musk": "static/images/elon.png",
    "avatars": "static/images/redditavi.png",
    "metaverse": "static/images/metaverse.png",
-   "ledger": "static/images/ledger.png"
+   "ledger": "static/images/ledger.png",
+   "sec": "static/images/sec.png",
+   "gensler": "static/images/gensler.png"
 }
