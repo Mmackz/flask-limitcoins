@@ -288,6 +288,11 @@ div.overlimit {
    background: #ffffff40;
 }
 
+.deprecate {
+   font-size: 1.1rem;
+   font-weight: bold;
+}
+
 @media (min-width: 362px) {
    html {
       font-size: 12px;
